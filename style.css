@@ -16,12 +16,14 @@ p {
   text-align: justify;
   text-justify: auto;
   padding: 1.5%;
+  color: #777777;
 }
 
 hr {
   height: 5px;
   border: 0;
   box-shadow: inset 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+  margin-top: 0vh;
 }
 
 h1,
@@ -62,7 +64,7 @@ h6 {
   color: #fff;
   padding-top: 3vh;
   margin-left: 2vh;
-  margin-right: 2vh;
+  margin-right: 2vh;  
 }
 
 /* Nav Menu Block */
@@ -93,7 +95,6 @@ h6 {
   padding: 1vh;
   text-decoration: none;
 }
-
 .contentcontainer {
   height: inherit;
   padding-bottom: 3vh;
