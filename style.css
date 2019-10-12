@@ -143,3 +143,25 @@ input{
   text-align: center;
   opacity: 1;
 }
+.grid-container > div{
+  background-color: white;
+  padding: 1vh;
+  text-align: center;
+}
+.grid-container{
+  justify-content: start;
+  display: grid;
+  grid-gap: 1vh;
+  grid-template-columns: 1vh, 1vh, 1vh, 1vh;
+  grid-template-rows: 1vh, 1vh, 1vh, 1vh;
+  text-align: center;
+
+}
+.item1{
+  grid-column: 1/1;
+  grid-row: 1/1;
+}
+.item2{
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
